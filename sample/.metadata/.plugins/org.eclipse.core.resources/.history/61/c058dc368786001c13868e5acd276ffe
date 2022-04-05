@@ -1,0 +1,17 @@
+package oops;
+
+class Abc
+{
+	public static void test()
+	{
+		System.out.println("Tested");
+	}
+}
+public class StaticTest {
+public static void main(String[] args) {
+	
+	Abc ab=new Abc();
+	ab.test();
+	Abc.test();
+}
+}

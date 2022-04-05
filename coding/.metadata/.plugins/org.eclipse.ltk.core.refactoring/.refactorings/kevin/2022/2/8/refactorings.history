@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Move element &apos;PowerofTwo.java&apos; to &apos;coding/src/(default package)&apos;&#x0D;&#x0A;- Original project: &apos;kevin&apos;&#x0D;&#x0A;- Destination element: &apos;coding/src/(default package)&apos;&#x0D;&#x0A;- Original element: &apos;PowerofTwo.java&apos;&#x0D;&#x0A;- Update references to refactored element" description="Move compilation unit" destination="=coding/src&lt;" element1="/src&lt;{PowerofTwo.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.move" policy="org.eclipse.jdt.ui.moveResources" qualified="false" references="true" stamp="1645253172310" units="1" version="1.0"/>
+</session>

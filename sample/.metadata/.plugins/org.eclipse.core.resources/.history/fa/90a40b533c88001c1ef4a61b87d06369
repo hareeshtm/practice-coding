@@ -1,0 +1,25 @@
+package hashmapconcepts;
+
+import java.util.Collections;
+import java.util.HashMap;
+import java.util.Map;
+
+public class HashMapSynch {
+
+	public static void main(String[] args) {
+		
+		//synchronizedMap  method in collection class
+		Map<String,String> map1=new HashMap<String, String>();
+		
+		map1.put("1", "Hareesh");
+		map1.put("2", "Arya");
+		map1.put("3", "Mahendran");
+		
+		//create Synchronized Map
+		Map<String,String> syncMap=Collections.synchronizedMap(map1);
+		System.out.println(syncMap);
+		
+
+	}
+
+}

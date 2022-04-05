@@ -1,0 +1,15 @@
+package hashmapconcepts;
+
+public class HashMapBasics {
+
+	public static void main(String[] args) {
+		
+		//no order - no indexing
+		//stores values - Key--Value  <K,V>
+		//Key cannot be duplicate.. if dupilcate given, it will override the old  value with the new value
+		
+		
+
+	}
+
+}

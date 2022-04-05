@@ -1,0 +1,53 @@
+package TwoDimensionalArray;
+
+import java.util.Scanner;
+
+public class Addition {
+	static void printMatrix(int M[][],int r,int c)
+	{
+		for(int i=0;i<r;i++)
+		{
+			for(int j=0;j<c;j++)
+				System.out.print(M[i][j]+" ");
+			System.out.println();
+		}
+	}
+	static int[][] add(int mat1[][],int mat2[][],int r,int c)
+	{
+		int sum[][]=new int[r][c];
+		for(int i=0;i<r;i++)
+		{
+			for(int j=0;j<c;j++)
+				sum[i][j]=mat1[i][j]+mat2[i][j];
+		}
+		return sum;		
+	}
+	
+
+	public static void main(String[] args) {
+		Scanner sc=new Scanner(System.in);
+		int r=0,c=0,mat1[][],mat2[][],sum[][];
+		System.out.println("Enter number of rows and columns");
+		r=sc.nextInt();c=sc.nextInt();
+		mat1=new int[r][c];
+		mat2=new int[r][c];
+		System.out.println("Enter martix 1");
+		for(int i=0;i<r;i++)
+		{
+			for(int j=0;j<c;j++)
+				mat1[i][j]=sc.nextInt();
+		}
+		System.out.println("Enter matrix 2");
+		for(int i=0;i<r;i++)
+		{
+			for(int j=0;j<c;j++)
+				mat2[i][j]=sc.nextInt();
+		}
+		System.out.println("Matrix 1");
+		printMatrix(mat1, r, c);
+		System.out.println("Matrix 2");
+		printMatrix(mat2, r, c);
+		
+	}
+
+}

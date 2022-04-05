@@ -1,0 +1,34 @@
+package java8;
+
+ interface DiamondProblemInterface1
+{
+	default void m1()
+	{
+		System.out.println("DiamondProblemInterface1");
+	}
+	public static void test()
+	{
+		System.out.println("static method");
+	}
+}
+// interface DiamondProblemInterface2
+//{
+//	default void m1()
+//	{
+//		System.out.println("DiamondProblemInterface2");
+//	}
+//}
+public class DiamondProblemClass implements DiamondProblemInterface1{
+
+	public static void main(String[] args) {
+
+		DiamondProblemClass d1=new DiamondProblemClass();
+		
+		DiamondProblemInterface1.test();
+	}
+
+	
+
+	
+
+}

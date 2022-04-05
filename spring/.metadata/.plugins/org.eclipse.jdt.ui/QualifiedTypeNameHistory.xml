@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="com.tmcoder.springdemo.Coach"/>
+    <fullyQualifiedTypeName name="com.tmcoder.springdemo.BaseballCoach"/>
+    <fullyQualifiedTypeName name="java.lang.System"/>
+    <fullyQualifiedTypeName name="java.util.logging.Level"/>
+    <fullyQualifiedTypeName name="java.util.logging.Logger"/>
+    <fullyQualifiedTypeName name="java.util.logging.ConsoleHandler"/>
+    <fullyQualifiedTypeName name="java.util.logging.SimpleFormatter"/>
+    <fullyQualifiedTypeName name="com.tmcoder.springdemo.FortuneService"/>
+    <fullyQualifiedTypeName name="com.tmcoder.springdemo.CricketCoach"/>
+    <fullyQualifiedTypeName name="com.tmcoder.practice_activity2_di.FortuneService"/>
+    <fullyQualifiedTypeName name="com.tmcoder.spring_demo_annotations.TennisCoach"/>
+    <fullyQualifiedTypeName name="com.tmcoder.spring_demo_annotations.HappyFortuneService"/>
+    <fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Qualifier"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="java.util.Random"/>
+    <fullyQualifiedTypeName name="com.tmcoder.activity5_di_annotation.FileFortuneService"/>
+    <fullyQualifiedTypeName name="java.io.File"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="java.io.BufferedReader"/>
+    <fullyQualifiedTypeName name="java.io.FileReader"/>
+    <fullyQualifiedTypeName name="java.io.IOException"/>
+    <fullyQualifiedTypeName name="org.springframework.stereotype.Component"/>
+    <fullyQualifiedTypeName name="com.tmcoder.activity5_di_annotation.FortuneService"/>
+    <fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Autowired"/>
+    <fullyQualifiedTypeName name="org.springframework.context.support.ClassPathXmlApplicationContext"/>
+    <fullyQualifiedTypeName name="org.springframework.context.annotation.Scope"/>
+    <fullyQualifiedTypeName name="org.springframework.context.annotation.AnnotationConfigApplicationContext"/>
+    <fullyQualifiedTypeName name="org.springframework.context.annotation.Configuration"/>
+    <fullyQualifiedTypeName name="javax.annotation.PostConstruct"/>
+    <fullyQualifiedTypeName name="java.lang.Override"/>
+    <fullyQualifiedTypeName name="com.tmcoder.spring_demo_annotations.FortuneService"/>
+    <fullyQualifiedTypeName name="com.tmcoder.spring_demo_annotations.SadFortuneService"/>
+    <fullyQualifiedTypeName name="com.tmcoder.spring_demo_annotations.Coach"/>
+    <fullyQualifiedTypeName name="org.springframework.context.annotation.Bean"/>
+    <fullyQualifiedTypeName name="org.springframework.context.annotation.ComponentScan"/>
+    <fullyQualifiedTypeName name="org.springframework.context.annotation.PropertySource"/>
+    <fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Value"/>
+    <fullyQualifiedTypeName name="com.tmcoder.spring_demo_annotations.SwimCoach"/>
+</qualifiedTypeNameHistroy>

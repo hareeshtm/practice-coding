@@ -1,0 +1,15 @@
+package hashmapconcepts;
+
+import java.util.HashMap;
+
+public class HashMapCompare {
+
+	public static void main(String[] args) {
+
+		HashMap<Integer, String> map1=new HashMap<Integer, String>();
+		map1.put(1, "A");
+		map1.put(2, "B");
+		map1.put(3, "C");
+	}
+
+}

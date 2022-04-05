@@ -1,0 +1,15 @@
+package oops;
+
+class A
+{
+	public static void test()
+	{
+		System.out.println("Tested");
+	}
+}
+public class StaticTest {
+public static void main(String[] args) {
+	
+	
+}
+}

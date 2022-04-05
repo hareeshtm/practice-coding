@@ -1,0 +1,15 @@
+package hashmapconcepts;
+
+import java.util.HashMap;
+
+public class HashMapToArrayList {
+public static void main(String[] args) {
+	
+	HashMap<String, Integer> compMap=new HashMap<String, Integer>();
+	compMap.put("Google", 10000);
+	compMap.put("Walmart", 20000);
+	compMap.put("Amazon", 30000);
+	compMap.put("facebook", 40000);
+	compMap.put("cisco", 70000);
+}
+}

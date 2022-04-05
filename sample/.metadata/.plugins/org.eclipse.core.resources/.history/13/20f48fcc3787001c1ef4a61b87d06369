@@ -1,0 +1,26 @@
+package hashmapconcepts;
+
+import java.util.HashMap;
+
+public class HashMapBasics {
+
+	public static void main(String[] args) {
+		
+		//no order - no indexing
+		//stores values - Key--Value  <K,V>
+		//Key cannot be duplicate.. if duplicate given, it will override the old  value with the new value
+		//can stor n number of null values but only one null key
+		
+		HashMap<String, String> capitalMap=new HashMap<String, String>();
+		capitalMap.put("India", "New Delhi");
+		capitalMap.put("USA", "WashingTon DC");
+		capitalMap.put("UK", "London");
+		capitalMap.put("UK", "London1");
+		capitalMap.put(null, "Berlin");
+		
+		System.out.println(capitalMap.get("India"));
+		System.out.println(capitalMap.get("UK"));
+		System.out.println(capitalMap.get(null));
+	}
+
+}
