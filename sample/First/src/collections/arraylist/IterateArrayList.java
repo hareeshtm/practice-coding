@@ -36,6 +36,8 @@ public class IterateArrayList {
 	      
 	      System.out.println("--------------------------stream sorting reverse");
 	      arrlist.stream().sorted(Collections.reverseOrder()).forEach(e->System.out.println(e));
+	      System.out.println("-----------or");
+	      arrlist.stream().sorted((n1,n2)->n2.compareTo(n1)).forEach(n->System.out.println(n));
 	      System.out.println("-------------------------");
 	      arrlist.stream().sorted((i1,i2)->Integer.compare(i2, i1)).forEach(e->System.out.println(e));
 	      //Sorting in reverse order

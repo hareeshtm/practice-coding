@@ -23,7 +23,10 @@ public class HMapSortingByValues {
 		{
 			lmap.put(e.getKey(), e.getValue());
 		}
+		
 		return lmap;
+		
+		
     }
 
 	public static void main(String[] args) {

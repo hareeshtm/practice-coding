@@ -1,0 +1,12 @@
+package practice;
+
+public class StringRev {
+public static void main(String[] args) {
+	
+	String str="Hareesh";
+	StringBuilder s=new StringBuilder(str);
+	System.out.println(s);
+	s.reverse();
+	System.out.println(s);
+}
+}
