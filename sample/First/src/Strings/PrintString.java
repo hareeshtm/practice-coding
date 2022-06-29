@@ -12,6 +12,7 @@ public class PrintString {
 		s=sc.next();
 		for(int i=0;i<s.length();i++)
 			System.out.print(s.charAt(i));
+	
 
 	}
 

@@ -1,5 +1,7 @@
 package practice;
 
+import java.util.Comparator;
+
 public class StringRev {
 public static void main(String[] args) {
 	
@@ -17,6 +19,10 @@ public static void main(String[] args) {
 	System.out.println(rev);
 	
 	System.out.println("Hareesh");
+	
+	String s="jobit";
+	StringBuffer b=new StringBuffer("Manohar");
+	
 	
 }
 }
